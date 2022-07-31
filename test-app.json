@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/chrishazfun/bucket",
+    "version": "6.9",
+    "url": "https://chrishaz.fun/test",
+    "architecture": {
+        "32bit": {
+            "bin": "x32.exe",
+            "shortcuts": [
+                ["x32.exe", "Test App x32"]
+            ]
+        },
+        "64bit": {
+            "bin": "x86.exe",
+            "shortcuts": [
+                ["x86.exe", "Test App x86"]
+            ]
+        }
+    },
+    "notes": "This is where the apps notes will go"
+}
