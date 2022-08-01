@@ -1,5 +1,5 @@
-scoop bucket repository for apps i use
+Scoop Bucket repository for apps I use.
 
-to add repo: `scoop bucket add chf https://github.com/chrishazfun/bucket`
+`scoop bucket add chf https://github.com/chrishazfun/bucket`
 
-to install apps: `scoop install chf/<app-name>`
+`scoop install chf/<app-name>`
