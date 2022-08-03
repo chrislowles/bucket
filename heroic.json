@@ -1,0 +1,19 @@
+{
+    "version": "2.3.10",
+    "description": "Heroic Game Launcher. Cross-platform, Open-source Game Launcher for Epic Games and GOG Galaxy.",
+    "homepage": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+    "license": "GPLv3",
+    "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v$version/Heroic-$version.exe",
+    "shortcuts": [
+        [
+            "Heroic-$version.exe",
+            "Heroic"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v$version/Heroic-$version.exe"
+    }
+}
