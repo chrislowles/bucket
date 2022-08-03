@@ -1,0 +1,13 @@
+{
+    "version": "0.20.27",
+    "description": "Alternative cli-based game downloader and launcher for Epic Games Store",
+    "homepage": "https://github.com/derrod/legendary",
+    "license": "GPL-3.0-or-later",
+    "notes": "See https://github.com/derrod/legendary/blob/master/README.md for instructions about how to run the program.",
+    "url": "https://github.com/derrod/legendary/releases/download/$version/legendary.exe",
+    "bin": "legendary.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/derrod/legendary/releases/download/$version/legendary.exe"
+    }
+}
