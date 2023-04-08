@@ -1,16 +1,19 @@
 {
 	"version": "1.9.7",
 	"description": "An automatic downgrader which downgrades GTA IV to either 1.0.8.0, 1.0.7.0 or 1.0.4.0.",
-	"homepage": "https://gtaforums.com/topic/976691-gta-iv-downgrader/",
+	"homepage": "https://github.com/ClonkAndre/GTAIVDowngrader",
 	"url": "https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1ZDLFtxk0434gtJgsKkWYWHigIb0C4d5Y#/dl.7z",
+	"hash": "76eb16ea5ad1b28085d4074823bdf8e6fd95318abecc08b9116577df29c0b8f7",
 	"license": {
 		"identifier": "MIT",
 		"url": "https://github.com/ClonkAndre/GTAIVDowngrader/blob/main/LICENSE"
 	},
-	"hash": "76eb16ea5ad1b28085d4074823bdf8e6fd95318abecc08b9116577df29c0b8f7",
 	"bin": "GTAIVDowngrader.exe",
 	"persist": ["Data/Savegames"],
 	"shortcuts": [
-		["GTAIVDowngrader.exe","GTA IV Downgrader"]
+		[
+			"GTAIVDowngrader.exe",
+			"GTA IV Downgrader"
+		]
 	]
 }
