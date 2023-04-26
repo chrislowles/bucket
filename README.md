@@ -1,5 +1,9 @@
 Scoop Bucket repository for testing manifest syntax.
 
-`scoop bucket add chf https://github.com/chrishazfun/bucket`
+```bash
+# add chf bucket
+scoop bucket add chf https://github.com/chrishazfun/bucket
 
-`scoop install chf/<app-name>`
+# sample method for installing from chf bucket, <app-name> is the name for the package
+scoop install chf/<app-name>
+```
