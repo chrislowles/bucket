@@ -8,12 +8,12 @@
 		"identifier": "MIT",
 		"url": "https://github.com/ClonkAndre/GTAIVDowngrader/blob/main/LICENSE"
 	},
-	"bin": "GTAIVDowngrader.exe",
+	"bin": "IVDowngrader.exe",
 	"persist": ["Data/Savegames"],
 	"shortcuts": [
 		[
-			"GTAIVDowngrader.exe",
-			"GTA IV Downgrader"
+			"IVDowngrader.exe",
+			"GTA IV Downgrader (Online Mode)"
 		]
 	]
 }
