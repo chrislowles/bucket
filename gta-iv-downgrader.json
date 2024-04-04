@@ -1,6 +1,6 @@
 {
-	"version": "2.0",
-	"description": "An automatic downgrader which downgrades GTA IV to either 1.0.8.0, 1.0.7.0 or 1.0.4.0.",
+	"version": "2.0.1",
+	"description": "An automatic downgrader which downgrades GTA IV to either 1.0.8.0, 1.0.7.0 or 1.0.4.0 and also download QoL mods to improve or add features.",
 	"homepage": "https://github.com/ClonkAndre/GTAIVDowngrader",
 	"url": "https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Fh302xrZPhKxTguzZCr_qzJgvjMulREW#/dl.7z",
 	"hash": "655eb7bd1dfdc56a04facf8e0c65982791fbedaf3cd878c2be6e1c58ab705c09",
@@ -8,12 +8,13 @@
 		"identifier": "MIT",
 		"url": "https://github.com/ClonkAndre/GTAIVDowngrader/blob/main/LICENSE"
 	},
-	"bin": "IVDowngrader.exe",
 	"persist": ["Data/Savegames"],
 	"shortcuts": [
 		[
 			"IVDowngrader.exe",
-			"GTA IV Downgrader (Online Mode)"
+			"GTA IV Downgrader (Online Mode)",
+			"LaunchInOfflineMode.exe",
+			"GTA IV Downgrader (Offline Mode)"
 		]
 	]
 }
