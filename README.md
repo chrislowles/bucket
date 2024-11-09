@@ -1,4 +1,4 @@
-Scoop Bucket repository for testing manifest syntax, might actually do something with this in the future.
+Scoop repository for testing manifest syntax, might actually do something with this in the future.
 
 ```powershell
 # add bucket
