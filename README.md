@@ -2,7 +2,7 @@ Scoop repository for testing manifest syntax, might actually do something with t
 
 ```powershell
 # add bucket
-scoop bucket add chrislowles https://github.com/chrislowles/bucket
+scoop bucket add chrislowles_bucket https://github.com/chrislowles/bucket
 # sample method for installing from personal bucket, <app-name> is the name for the package
-scoop install chrislowles/<app-name>
+scoop install chrislowles_bucket/<app-name>
 ```
